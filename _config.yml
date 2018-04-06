@@ -27,18 +27,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
-theme: minima
 plugins:
   - jekyll-feed
-#nav
-site_nav:
-  Home:['Home', '/', 'fa-home']
-  Contact:['Contact', '/contact', 'fa-plane']
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
