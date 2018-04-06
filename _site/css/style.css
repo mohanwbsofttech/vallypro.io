@@ -1,16 +1,13 @@
-/*
-  Theme Name: Reveal
-  Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -106,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #7d7d7d;
 }
 
 #topbar .social-links a:first-child {
@@ -168,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-carousel/sl01.png") no-repeat;
+  background: url("../img/intro-carousel/int.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -189,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro .intro-content h2 {
     color: #000;
     margin-bottom: 20px;
-    font-size: 45px;
+    font-size: 44px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -217,8 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
@@ -234,9 +230,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
 }
 
+
 .intro .intro-content .btn-get-started:hover {
- /* background: none;
-  color: #0c2e8a;*/
+ background: none;
+  color: #0c2e8a;
 }
 
 .intro .intro-content .btn-projects {
@@ -349,14 +346,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 10px 8px;
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  outline: none;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+    text-transform: uppercase;
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
@@ -419,7 +416,35 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* custom css start here */
-
+.social i.fa.fa-twitter:hover {
+    color: #fff;
+}
+.social i.fa.fa-facebook:hover {
+    color: #fff;
+}
+.social i.fa.fa-google-plus:hover {
+    color: #fff;
+}
+.social i.fa.fa-linkedin:hover {
+    color: #fff;
+}
+.social i.fa.fa-instagram:hover {
+    color: #fff;
+}
+.contact-add .ion-ios-location-outline:before {
+    font-weight: 600;
+}
+.contact-mail .ion-ios-email-outline:before {
+    position: relative;
+    top: 4px;
+    font-weight: 700;
+}
+.contact-number .ion-ios-telephone-outline:before {
+    font-weight: 600;
+}
+.col-lg-4.cont-left {
+    margin-top: 70px;
+}
 .pull-left h1{
 	float: left;
 }
@@ -430,6 +455,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 600;
+	font-size:12px;
 }
 .pull-left h5 {
     float: left;
@@ -444,11 +470,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-links.float-right h3 {
     float: left;
-	font-size: 16px;
+	font-size: 14px;
 }
 .social-links.float-right h3 span {
     color: #000;
     font-weight: 700;
+	font-size: 16px;
 }
 .social-links.float-right h6 {
     float: left;
@@ -462,11 +489,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px 10px;
     border-radius: 18px;
 }
+.social-links.float-right h6 a:hover{
+	background: #e87a7a;
+	color: #fff;
+}
 .float-right {
     margin-top: 20px;
 }
 .intro-content{
-	padding: 300px 0 300px 0;
+	padding: 180px 0 180px 0;
 }
 .slide-testi{
 	background:url("../img/serv.jpg") no-repeat;
@@ -476,6 +507,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #fff;
     font-size: 30px;
+	font-weight: 700;
 }
 .row.service-title h2 {
     text-align: center;
@@ -490,7 +522,6 @@ h1, h2, h3, h4, h5, h6 {
 .row.service-text h2 {
     color: #fff;
     font-size: 22px;
-    text-transform: uppercase;
     font-weight: 600;
 }
 .row.service-text p {
@@ -521,6 +552,9 @@ a.cta-btn.align-middle {
     text-transform: uppercase;
     border-radius: 30px;
     padding: 10px 30px;
+}
+a.cta-btn.align-middle:hover {
+    background: #e87a7a;
 }
 .foot-top{
 	background:url("../img/foot-top.jpg") no-repeat;
@@ -651,7 +685,7 @@ a.cta-btn.align-middle {
 .service-text .two:hover .img-top2{
     display: inline;
 		text-align: center;
-        margin: 0px 157px;
+        margin: 10px 157px;
 }
 	
 	.service-text .three:hover {
@@ -741,7 +775,7 @@ a.cta-btn.align-middle {
     .service-text .seven:hover .img-top7 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 10px 162px;
     }
 	
 	.service-text .eight:hover {
@@ -759,7 +793,7 @@ a.cta-btn.align-middle {
     .service-text .eight:hover .img-top8 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 10px 160px;
     }
 	
 	.service-text .nine:hover {
@@ -777,7 +811,7 @@ a.cta-btn.align-middle {
     .service-text .nine:hover .img-top9 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 10px 160px;
     }
 	
 	.social-links.float-right h3 a {
@@ -829,6 +863,7 @@ h3.title-border {
 }
 .contact-number p {
     margin: 2px 12px;
+    line-height: 30px;
 }
 .contact-number p a {
     color: #000;
@@ -840,7 +875,8 @@ h3.title-border {
 }
 .contact-add p {
     margin: 2px 12px;
-	font-size:14px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .contact-mail h3 {
     font-size: 14px;
@@ -848,6 +884,18 @@ h3.title-border {
 .contact-mail a {
     color: #b22b2b;
     text-decoration: underline;
+	margin-left: 15px;
+}
+.contact-section .row{
+	width:100%;
+	margin:0;
+}
+.contact-section .col-lg-6 {
+    padding: 0;
+}
+.service-text .col-lg-4 {
+    margin-bottom: 40px;
+	padding: 10px 10px;
 }
 
 @media (max-width: 768px) {
@@ -1219,7 +1267,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 30px 15px;
   text-align: center;
   min-height: 350px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 767px) {

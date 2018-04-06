@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
   <section  class="intro">
     <div class="container">
     <div class="intro-content">
@@ -147,7 +149,7 @@
         </div>
 		
 		<div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Get A Quote</a>
+            <a class="cta-btn align-middle" href="/contact">Get A Quote</a>
           </div>
 
       </div>
