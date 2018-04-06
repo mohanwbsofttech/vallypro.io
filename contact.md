@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: contact
 ---
  <section id="contact-page" class="wow fadeInUp contact-section">
         <div class="row">
