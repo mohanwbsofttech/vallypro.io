@@ -21,10 +21,6 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-p {
-  padding: 0;
-  margin: 0 0 30px 0;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -416,6 +412,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* custom css start here */
+.contact-phone .ion-ios-telephone-outline:before {
+    font-weight: 700;
+}
+.contact-address .ion-ios-location-outline:before{
+	font-weight: 700;
+}
 .social i.fa.fa-twitter:hover {
     color: #fff;
 }
@@ -526,6 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .row.service-text p {
     color: #fff;
+	padding: 0;
 }
 h2.client-say {
     text-align: center;
@@ -596,6 +599,7 @@ a.cta-btn.align-middle:hover {
 }
 .foot-nav ul li a {
     color: #fff;
+    font-size: 13px;
 }
 .foot-nav ul li a:hover {
     color: #b22b2b;
@@ -610,6 +614,10 @@ a.cta-btn.align-middle:hover {
     font-size: 20px;
     display: inline-block;
     color: #fff;
+	margin-right: 10px;
+}
+.contact-phone p {
+    margin-left: 28px;
 }
 .contact-phone h3 {
     color: #b22b2b;
@@ -627,6 +635,7 @@ a.cta-btn.align-middle:hover {
     font-size: 20px;
     display: inline-block;
     color: #fff;
+	margin-right: 10px;
 }
 .contact-address h3 {
     color: #b22b2b;
@@ -638,6 +647,9 @@ a.cta-btn.align-middle:hover {
 .contact-address p {
     color: #fff;
     font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+    line-height: 25px;
 }
 .social {
     width: 25%;
@@ -647,12 +659,14 @@ a.cta-btn.align-middle:hover {
     color: #183362;
     padding: 0 6px;
     font-size: 18px;
+	float: right;
 }
 
 .service-text .one:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 .service-text .one .img-top1 {
         display: none;
@@ -664,13 +678,14 @@ a.cta-btn.align-middle:hover {
 .service-text .one:hover .img-top1{
     display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 25px 150px;
 }
 
 .service-text .two:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 .service-text .two .img-top2 {
         display: none;
@@ -679,19 +694,20 @@ a.cta-btn.align-middle:hover {
         left: 0;
         z-index: 99;
     }
-	.service-text .two:hover .img2{
+.service-text .two:hover .img2{
 		display:none;
 	}
 .service-text .two:hover .img-top2{
     display: inline;
 		text-align: center;
-        margin: 10px 157px;
+        margin: 25px 157px;
 }
 	
 	.service-text .three:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .three .img-top3 {
         display: none;
@@ -703,13 +719,14 @@ a.cta-btn.align-middle:hover {
     .service-text .three:hover .img-top3 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 25px 150px;
     }
 	
 	.service-text .four:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .four .img-top4{
         display: none;
@@ -721,13 +738,14 @@ a.cta-btn.align-middle:hover {
     .service-text .four:hover .img-top4 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 25px 160px;
     }
 	
 	.service-text .five:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .five .img-top5 {
         display: none;
@@ -739,13 +757,14 @@ a.cta-btn.align-middle:hover {
     .service-text .five:hover .img-top5 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 30px 130px;
     }
 	
 	.service-text .six:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .six .img-top6 {
         display: none;
@@ -757,13 +776,14 @@ a.cta-btn.align-middle:hover {
     .service-text .six:hover .img-top6 {
         display: inline;
 		text-align: center;
-        margin: 10px 150px;
+        margin: 25px 155px;
     }
 	
 	.service-text .seven:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .seven .img-top7 {
         display: none;
@@ -775,13 +795,14 @@ a.cta-btn.align-middle:hover {
     .service-text .seven:hover .img-top7 {
         display: inline;
 		text-align: center;
-        margin: 10px 162px;
+        margin: 25px 162px;
     }
 	
 	.service-text .eight:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .eight .img-top8 {
         display: none;
@@ -793,13 +814,14 @@ a.cta-btn.align-middle:hover {
     .service-text .eight:hover .img-top8 {
         display: inline;
 		text-align: center;
-        margin: 10px 160px;
+        margin: 25px 160px;
     }
 	
 	.service-text .nine:hover {
     background: #fff;
     color: #000;
     -webkit-text-fill-color: #000;
+	cursor: pointer;
 }
 	.service-text .nine .img-top9 {
         display: none;
@@ -811,10 +833,24 @@ a.cta-btn.align-middle:hover {
     .service-text .nine:hover .img-top9 {
         display: inline;
 		text-align: center;
-        margin: 10px 160px;
+        margin: 25px 160px;
     }
+.row.service-title.show h1#back-service:hover {
+    color: #b22b2b;
+}	
+.row.service-title.show h1#back-service:before {
+    content: "<";
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+.row.service-title.show h1#back-service:hover:before {   
+    color: #b22b2b;
+}		
 	
-	.social-links.float-right h3 a {
+.social-links.float-right h3 a {
     color: #000;
 }
 .col-lg-6.cont-left h2 {
@@ -895,8 +931,75 @@ h3.title-border {
 }
 .service-text .col-lg-4 {
     margin-bottom: 40px;
-	padding: 10px 10px;
+	padding: 25px 10px 10px 10px;
 }
+.row.service-title.show h1 {
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+.row.service-title.show img {
+    padding-right: 20px;
+}
+.row.service-title.show h3 {
+    text-align: left;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+}
+.row.service-video.top h1 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.row.service-video.top p {
+    color: #fff;
+    font-size: 13px;
+}
+.row.service-video.bottom h1 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.row.service-video.bottom p {
+    color: #fff;
+    font-size: 13px;
+	line-height: 25px;
+}
+.row.service-video.bottom li {
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+	list-style: none;
+}
+.row.service-video.bottom li:before {
+    content: '\2022';
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.row.service-video.top {
+    padding: 70px 0;
+}
+.col-lg-3.cta-btn-container.text-center.service a {
+    font-size: 18px;
+    text-transform: inherit;
+    padding: 20px 35px;
+}
+.row.service-title.show {
+    border-bottom: 1px solid #506182;
+}
+section.wow.fadeInUp.slide-testi.hide-service {
+    padding: 80px 0;
+}
+section.wow.fadeInUp.slide-testi.hide-service.hide{
+             display:none;
+        }
+
+/* custom css end here */
 
 @media (max-width: 768px) {
   #mobile-nav-toggle {
@@ -996,26 +1099,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header {
   margin-bottom: 30px;
-}
-
-/*.section-header h2 {
-  font-size: 32px;
-  color: #0c2e8a;
-  text-transform: uppercase;
-  font-weight: 700;
-  position: relative;
-  padding-bottom: 20px;
-}*/
-
-.section-header h2::before {
- /* content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #50d8af;
-  bottom: 0;
-  left: 0;*/
 }
 
 .section-header p {
@@ -1313,6 +1396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  font-size: 17px;
 }
 
 #testimonials .owl-nav, #testimonials .owl-dots {
@@ -1497,6 +1581,67 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 20px;
   }
 }
+@media (max-width: 320px) {
+.intro-content {
+	padding: 100px 0 100px 0;
+}
+  
+.intro .intro-content h3 {   
+    font-size: 55px;
+}
+.service-text .one:hover .img-top1 {
+    margin: 10px 108px;
+}
+.service-text .two:hover .img-top2 {
+    margin: 10px 121px;
+}
+.service-text .three:hover .img-top3 {
+    margin: 10px 120px;
+}
+.service-text .four:hover .img-top4 {
+	margin: 10px 130px;
+}
+.service-text .five:hover .img-top5 {
+	margin: 10px 100px;
+}
+.service-text .six:hover .img-top6 {
+	margin: 10px 122px;
+}
+.service-text .seven:hover .img-top7 {
+	margin: 10px 127px;
+}
+.service-text .eight:hover .img-top8 {
+	margin: 10px 130px;
+}
+.service-text .nine:hover .img-top9 {
+	margin: 10px 123px;
+}
+.cta-btn.align-middle {
+	width: 100%;
+	float: left;
+	font-size: 25px !important;
+}
+.foot-nav {
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+}
+.foot-nav.three {
+	margin-top: 0;
+}
+#footer .copyright {
+	width: 100% !important;
+}
+.social {
+    width: 100%;
+}
+#footer {
+	padding: 30px 0 70px 0 !important;
+}
+#contact .row {
+    margin-right: 0;
+}
+}
 
 #contact .form #sendmessage {
   color: #50d8af;
@@ -1562,7 +1707,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .copyright {
     float: left;
-    color: #fff;
+    color: #b2b2b2;
     width: 75%;
 }
 
