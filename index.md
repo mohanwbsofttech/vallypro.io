@@ -14,8 +14,8 @@ layout: default
 
     </div>
   </section>
- <section id="about" class="wow fadeInUp slide-testi">
-      <div class="container">
+  <section id="about" class="wow fadeInUp slide-testi">
+    <div class="container">
         <div class="row service-title">
           <div class="col-lg-12">
             <h1>OUR SERVICES</h1>
@@ -32,7 +32,7 @@ layout: default
 		  <div class="col-lg-4 two" id="service2">
             <h1><img src="img/services/serv22.png"></h1>
 			<h1><img src="img/services/srv02.png" class="img-top2"></h1>
-			<h2>Bathroom Renovation</h2>
+			<h2>Kitchen Remodeling</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula.</p>
           </div>
 		  <div class="col-lg-4 three" id="service3">
@@ -74,22 +74,20 @@ layout: default
 			<h1><img src="img/services/hov08.png" class="img-top8"></h1>
 			<h2>Restoration Services</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula.</p>
-          </div> 
+          </div>
 		  <div class="col-lg-4 nine" id="service9">
             <h1><img src="img/services/srv09.png"></h1>
 			<h1><img src="img/services/hov09.png" class="img-top9"></h1>
 			<h2>Custom Home Building</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula. </p>
           </div>
-        </div>
-
-      </div>
-    </section>
-	<section id="about-hide" class="wow fadeInUp slide-testi hide-service hide">
+		</div>
+    </div>
+    </section><section id="about-hide" class="wow fadeInUp slide-testi hide-service hide">
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 id="back-service" class>Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
 		<h3><img src="img/bath.png"> Bathroom Renovation</h3>
@@ -97,17 +95,12 @@ layout: default
 		</div>
 		<div class="row service-video top">
 		<div class="col-lg-6">
-		<!--<img src="img/vid01.jpg">-->
-		<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-</div>
+		<img src="img/vid01.jpg">
 		</div>
 		<div class="col-lg-6">
 		 <h1>Bathroom Renovation</h1>
 		 <p>Bathroom renovations can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
-
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
-
 		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
 		</div>
 		</div>
@@ -115,29 +108,20 @@ layout: default
 		<div class="col-lg-6">
 		 <h1>Bathroom Renovation</h1>
 		 <p>Bathroom renovations can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
-
 		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
 		<li>Ut at ex et ipsum feugiat molestie. </li>
 		<li>Ut porta, est nec mattis commodo</li>
 		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
 		</div>
 		<div class="col-lg-6">
-		<div class="w3-content w3-display-container">
-	  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
-	  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
-	  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
-
-	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
+		<img src="img/vid02.jpg">
 		</div>
 		</div>
 		<div class="col-lg-3 cta-btn-container text-center service">
             <a class="cta-btn align-middle" href="#">Request a quote</a>
          </div>
 	  </div>
-	</section> 
-    <section id="testimonials" class="wow fadeInUp">
+	</section><section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2 class="client-say">What our customer say?</h2>
@@ -155,7 +139,7 @@ layout: default
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
-
+ 
             <div class="testimonial-item">
               <p>
                 <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
@@ -203,8 +187,8 @@ layout: default
         </div>
 		
 		<div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Get A Quote</a>
-         </div>
+            <a class="cta-btn align-middle" href="/contact">Get A Quote</a>
+          </div>
 
       </div>
     </section>
