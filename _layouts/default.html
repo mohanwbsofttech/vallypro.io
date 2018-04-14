@@ -236,7 +236,7 @@
 		
 		<h2><img src="img/tel.png"></h2>
 		<h5><img src="img/tag-stick.png"></h5>
-		<h3>Call Us Now <br> <span><a href="tel:800 123-4567">800 123-4567</a></span></h3>
+		<h3>Call Us Now <br> <span><a href="tel:8001234567">800 123-4567</a></span></h3>
 		<h6><a href="contact">Get a Quote</a></h6>
 		
       </div>
@@ -383,6 +383,24 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
 
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
 </body>
 </html>
