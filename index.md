@@ -130,7 +130,7 @@ layout: default
 		</div>
 		</div>
 		<div class="col-lg-3 cta-btn-container text-center service">
-            <a class="cta-btn align-middle" href="#">Request a quote</a>
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
          </div>
 	  </div>
 	</section><section id="testimonials" class="wow fadeInUp">
@@ -199,7 +199,7 @@ layout: default
         </div>
 		
 		<div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="/contact">Get A Quote</a>
+            <a class="cta-btn align-middle" href="contact">Get A Quote</a>
           </div>
 
       </div>
