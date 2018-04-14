@@ -8,7 +8,7 @@ layout: default
 	  <h3>Realized.</h3>
 	  <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</p>
       <div>
-        <a href="#about" class="btn-get-started scrollto">Request a Quote</a>
+        <a href="contact" class="btn-get-started scrollto">Request a Quote</a>
       </div>
     </div>
 
