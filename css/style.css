@@ -1811,7 +1811,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
 }
 #mobile-nav-toggle {
-	top: 80px;
+	top: 0px;
 }
 button.w3-button.w3-black.w3-display-left {
 	top: -112px;
@@ -1917,7 +1917,7 @@ button.w3-button.w3-black.w3-display-right {
     display: none;
 }
 #mobile-nav-toggle {
-	top: 80px;
+	top: 0px;
 }
 button.w3-button.w3-black.w3-display-left {
 	top: -112px;
