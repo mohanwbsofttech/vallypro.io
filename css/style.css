@@ -1752,6 +1752,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .service-text .nine:hover .img-top9 {
 	margin: 25px 232px;
 }
+.cta-btn.align-middle {
+	float: none;
+}
 }
 @media (max-width: 576px) {
   .intro-content {
