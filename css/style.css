@@ -1706,7 +1706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .cta-btn.align-middle {
 	width: 100%;
-	float: left;
+	float: none;
 	font-size: 25px !important;
 }
 .foot-nav {
@@ -1754,6 +1754,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .cta-btn.align-middle {
 	float: none;
+}
+.row.service-title.show h3 {
+	font-size: 30px;
 }
 }
 @media (max-width: 576px) {
@@ -1819,6 +1822,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #contact .row {
     margin-right: 0;
+}
+.row.service-title.show h3 {
+	font-size: 25px;
 }
 }
 @media (max-width: 480px) {
