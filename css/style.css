@@ -1667,31 +1667,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 812px) and (max-width: 903px) {
  
 .service-text .one:hover .img-top1 {
-    margin: 25px 108px;
+    margin: 25px 310px;
 }
 .service-text .two:hover .img-top2 {
-    margin: 25px 121px;
+    margin: 25px 320px;
 }
 .service-text .three:hover .img-top3 {
-    margin: 25px 125px;
+    margin: 25px 320px;
 }
 .service-text .four:hover .img-top4 {
-	margin: 25px 126px;
+	margin: 25px 323px;
 }
 .service-text .five:hover .img-top5 {
-	margin: 25px 98px;
+	margin: 25px 295px;
 }
 .service-text .six:hover .img-top6 {
-	margin: 26px 122px;
+	margin: 26px 320px;
 }
 .service-text .seven:hover .img-top7 {
-	margin: 25px 124px;
+	margin: 25px 326px;
 }
 .service-text .eight:hover .img-top8 {
-	margin: 25px 132px;
+	margin: 25px 330px;
 }
 .service-text .nine:hover .img-top9 {
-	margin: 25px 123px;
+	margin: 25px 322px;
 }
 .cta-btn.align-middle {
 	width: 50%;
