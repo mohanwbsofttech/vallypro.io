@@ -1664,6 +1664,41 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 20%;
 }
 }
+@media (min-width: 812px) and (max-width: 903px) {
+ 
+.service-text .one:hover .img-top1 {
+    margin: 25px 108px;
+}
+.service-text .two:hover .img-top2 {
+    margin: 25px 121px;
+}
+.service-text .three:hover .img-top3 {
+    margin: 25px 125px;
+}
+.service-text .four:hover .img-top4 {
+	margin: 25px 126px;
+}
+.service-text .five:hover .img-top5 {
+	margin: 25px 98px;
+}
+.service-text .six:hover .img-top6 {
+	margin: 26px 122px;
+}
+.service-text .seven:hover .img-top7 {
+	margin: 25px 124px;
+}
+.service-text .eight:hover .img-top8 {
+	margin: 25px 132px;
+}
+.service-text .nine:hover .img-top9 {
+	margin: 25px 123px;
+}
+.cta-btn.align-middle {
+	width: 50%;
+	font-size: 25px !important;
+	margin: 0 auto;
+}
+}
 
 @media (max-width: 768px) {
   .intro-content {
