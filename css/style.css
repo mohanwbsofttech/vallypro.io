@@ -1594,7 +1594,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-
+@media (max-width: 1366px) {
+  #contact {
+	padding: 0;
+}
+}
 @media (min-width: 992px) and (max-width: 1024px) {
   .intro-content {
 	padding: 100px 0 100px 0;
