@@ -2049,6 +2049,9 @@ button.w3-button.w3-black.w3-display-right {
 .contact-mail h3 {
 	font-size: 12px;
 }
+.row.service-title.show h3 {
+	font-size: 16px;
+}
 }
 
 
@@ -2134,10 +2137,13 @@ button.w3-button.w3-black.w3-display-right {
     float: left;
 
 }
+.row.service-title.show h3 {
+	font-size: 16px;
+}
 .cta-btn.align-middle {
 	width: 100%;
 	float: left;
-	font-size: 25px !important;
+	font-size: 18px !important;
 }
 .foot-nav {
     float: left;
