@@ -1724,7 +1724,35 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 40%;
 }
 }
-
+@media (max-width: 667px) {
+	.service-text .one:hover .img-top1 {
+	margin: 25px 225px;
+}
+.service-text .two:hover .img-top2 {
+	margin: 25px 230px;
+}
+.service-text .three:hover .img-top3 {
+	margin: 25px 232px;
+}
+.service-text .four:hover .img-top4 {
+	margin: 25px 240px;
+}
+.service-text .five:hover .img-top5 {
+	margin: 25px 207px;
+}
+.service-text .six:hover .img-top6 {
+	margin: 26px 232px;
+}
+.service-text .seven:hover .img-top7 {
+	margin: 25px 234px;
+}
+.service-text .eight:hover .img-top8 {
+	margin: 25px 240px;
+}
+.service-text .nine:hover .img-top9 {
+	margin: 25px 232px;
+}
+}
 @media (max-width: 576px) {
   .intro-content {
 	padding: 100px 0 100px 0;
