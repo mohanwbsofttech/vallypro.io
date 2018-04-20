@@ -1754,6 +1754,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .service-text .nine:hover .img-top9 {
 	margin: 26px 232px;
 }
+.row.service-title.show h3 {
+	font-size: 32px;
+}
 }
 
 @media (max-width: 667px) {
