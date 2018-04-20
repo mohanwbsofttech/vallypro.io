@@ -1933,7 +1933,7 @@ button.w3-button.w3-black.w3-display-right {
 	text-align: center;
 }
 .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
-	margin: 15px 20px;
+	margin: 15px 45px;
 }
 #topbar #logo img {
     height: 40px;
@@ -1977,31 +1977,31 @@ button.w3-button.w3-black.w3-display-right {
     font-size: 55px;
 }
 .service-text .one:hover .img-top1 {
-    margin: 10px 108px;
+	margin: 20px 132px;
 }
 .service-text .two:hover .img-top2 {
-    margin: 25px 121px;
+    margin: 25px 140px;
 }
 .service-text .three:hover .img-top3 {
-    margin: 10px 120px;
+    margin: 30px 142px;
 }
 .service-text .four:hover .img-top4 {
-	margin: 10px 130px;
+	margin: 20px 150px;
 }
 .service-text .five:hover .img-top5 {
-	margin: 10px 100px;
+	margin: 35px 116px;
 }
 .service-text .six:hover .img-top6 {
-	margin: 10px 122px;
+	margin: 25px 140px;
 }
 .service-text .seven:hover .img-top7 {
-	margin: 25px 125px;
+	margin: 25px 146px;
 }
 .service-text .eight:hover .img-top8 {
-	margin: 10px 130px;
+	margin: 25px 150px;
 }
 .service-text .nine:hover .img-top9 {
-	margin: 25px 123px;
+	margin: 25px 142px;
 }
 .social a {
     float: left;
