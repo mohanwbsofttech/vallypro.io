@@ -1798,7 +1798,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	text-align: center;
 }
 .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
-	margin: 15px 20px;
+	margin: 15px 100px;
 }
 #topbar #logo img {
     height: 50px;
