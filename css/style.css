@@ -1835,7 +1835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .cta-btn.align-middle {
 	width: 100%;
-	float: left;
+	float: none;
 	font-size: 25px !important;
 }
 .foot-nav {
@@ -1889,6 +1889,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .service-text .nine:hover .img-top9 {
 	margin: 25px 247px;
+}
+.cta-btn.align-middle {
+	width: 100%;
+	float: none;
+	font-size: 25px !important;
 }
 }
 @media (max-width: 480px) {
