@@ -1663,6 +1663,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 .social {
     width: 20%;
 }
+.row.service-title.show h3 {
+	font-size: 30px;
+}
+.contact-number {
+	width: 100%;
+}
+.contact-add {
+	width: 100%;
+}
+.contact-mail h3 {
+	font-size: 12px;
+}
+.contact-mail a {
+	margin-left: 3px;
+}
+.contact-number p a {
+	font-size: 16px;
+}
 }
 @media (min-width: 812px) and (max-width: 903px) {
  
