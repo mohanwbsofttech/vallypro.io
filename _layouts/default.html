@@ -38,8 +38,7 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <script>
              $(document).ready(function(){
-             	$("#btn1").click(function(event){
-			event.preventDefault();
+             	$("#btn1").click(function(){
              		$("#about").hide();
 			$("#about-hide").show();
              	});
@@ -265,15 +264,15 @@
           <li class="menu-active"><a href="{{base}}">Home</a></li>
 		 <li class="menu-has-children"><a href="{{base}}#about" id="service">Services</a>
             <ul>
-                          <li><a href="#about-hide" id="btn1">Kitchen Remodeling</a></li>
-                          <li><a href="#about-hide" id="btn2">Bathroom Renovation</a></li>
-			  <li><a href="#about-hide" id="btn3">Window Installation</a></li>
-			  <li><a href="#about-hide" id="btn4">Door Installation</a></li>
-			  <li><a href="#about-hide" id="btn5">Roofing</a></li>
-			  <li><a href="#about-hide" id="btn6">Sliding</a></li>
-			  <li><a href="#about-hide" id="btn7">Home Additions</a></li>
-			  <li><a href="#about-hide" id="btn8">Restoration Services</a></li>
-			  <li><a href="#about-hide" id="btn9">Custom Home Building</a></li>
+                          <li><a href="{{base}}#about-hide" id="btn1">Kitchen Remodeling</a></li>
+                          <li><a href="{{base}}#about-hide" id="btn2">Bathroom Renovation</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn3">Window Installation</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn4">Door Installation</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn5">Roofing</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn6">Sliding</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn7">Home Additions</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn8">Restoration Services</a></li>
+			  <li><a href="{{base}}#about-hide" id="btn9">Custom Home Building</a></li>
             </ul>
           </li> 
           <li><a href="contact">Contact</a></li>
