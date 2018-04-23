@@ -1040,7 +1040,7 @@ section.wow.fadeInUp.slide-testi.hide-service {
     padding: 80px 0;
 }
 #about-hide {
-    /*display: none;*/
+    display: none;
     padding: 90px 0;
 }
 
