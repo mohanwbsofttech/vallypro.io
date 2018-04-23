@@ -2183,6 +2183,15 @@ button.w3-button.w3-black.w3-display-right {
 .contact-number p a {
 	font-size: 15px;
 }
+.intro .intro-content h3 {
+	font-size: 50px;
+}
+.cta-btn.align-middle {
+	font-size: 20px !important;
+}
+.col-lg-3.cta-btn-container.text-center.service a {
+	padding: 15px 30px;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2220,6 +2229,15 @@ button.w3-button.w3-black.w3-display-right {
 }
 .contact-number p a {
 	font-size: 15px;
+}
+.intro .intro-content h3 {
+	font-size: 50px;
+}
+.cta-btn.align-middle {
+	font-size: 20px !important;
+}
+.col-lg-3.cta-btn-container.text-center.service a {
+	padding: 15px 30px;
 }
 }
 
