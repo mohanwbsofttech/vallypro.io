@@ -85,7 +85,7 @@
           <li class="menu-active"><a href="{{base}}">Home</a></li>
 		 <li class="menu-has-children"><a href="{{base}}#about" id="service">Services</a>
             <ul>
-                          <li><a href="{{base}}#about-hide" id="btn1">Kitchen Remodeling</a></li>
+                          <li><a href="" id="btn1">Kitchen Remodeling</a></li>
                           <li><a href="{{base}}#about-hide" id="btn2">Bathroom Renovation</a></li>
 			  <li><a href="{{base}}#about-hide" id="btn3">Window Installation</a></li>
 			  <li><a href="{{base}}#about-hide" id="btn4">Door Installation</a></li>
@@ -235,6 +235,8 @@
              	$("#btn1").click(function(){
              		$("#about").hide();
 			$("#about-hide").show();
+			 var hashcode = window.location.hash;
+             $('html,body').animate({scrollTop: $('div#'+about-hide).offset().top},'slow');
              	});
              });			 
 			 $(document).ready(function(){
@@ -405,6 +407,8 @@
 			 $("#about").show();					
              	});
 				});
+				
+			
           </script>
 
 <!--- service links end --->
