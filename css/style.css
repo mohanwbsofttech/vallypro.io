@@ -2177,6 +2177,12 @@ button.w3-button.w3-black.w3-display-right {
 .service-text .nine:hover .img-top9 {
 	margin: 25px 168px;
 }	
+.contact-number p {
+	line-height: 35px;
+}
+.contact-number p a {
+	font-size: 15px;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2209,6 +2215,12 @@ button.w3-button.w3-black.w3-display-right {
 .service-text .nine:hover .img-top9 {
 	margin: 25px 168px;
 }	
+.contact-number p {
+	line-height: 35px;
+}
+.contact-number p a {
+	font-size: 15px;
+}
 }
 
 @media  (max-width: 375px) {
