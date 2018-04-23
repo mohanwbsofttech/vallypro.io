@@ -1812,7 +1812,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .social {
     width: 40%;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
 .pull-left.mob-logo h1 {
