@@ -1605,6 +1605,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact {
 	padding: 0;
 }
+.foot-top {
+	background-position: bottom;
+}
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   .intro-content {
