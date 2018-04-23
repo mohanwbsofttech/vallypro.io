@@ -2211,6 +2211,9 @@ button.w3-button.w3-black.w3-display-right {
 .col-lg-3.cta-btn-container.text-center.service a {
 	padding: 15px 30px;
 }
+.mobile h1 {
+    font-size: 20px !important;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2257,6 +2260,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .col-lg-3.cta-btn-container.text-center.service a {
 	padding: 15px 30px;
+}
+.mobile h1 {
+    font-size: 18px !important;
 }
 }
 
@@ -2383,6 +2389,9 @@ button.w3-button.w3-black.w3-display-right {
 .row.service-title.show h3 {
 	font-size: 16px;
 }
+.mobile h1 {
+    font-size: 16px !important;
+}
 }
 
 @media (max-width: 360px) {
@@ -2508,6 +2517,9 @@ button.w3-button.w3-black.w3-display-right {
 .row.service-title.show h3 {
 	font-size: 16px;
 }
+.mobile h1 {
+    font-size: 16px !important;
+}
 }
 
 
@@ -2631,6 +2643,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .contact-number p a {
 	font-size: 16px;
+}
+.mobile h1 {
+    font-size: 16px !important;
 }
 }
 
