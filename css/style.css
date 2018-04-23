@@ -1887,6 +1887,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 30px;
+	margin-top: 8px;
+}
 }
 
 @media (max-width: 667px) {
@@ -1926,6 +1930,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 30px;
+	margin-top: 8px;
+}
 }
 @media (max-width: 576px) {
   .intro-content {
@@ -1964,7 +1972,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .social a {
     float: left;
-
 }
 .cta-btn.align-middle {
 	width: 100%;
@@ -1996,6 +2003,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .pull-left .mob-logo {
     display: block;
+}
+.pull-left .mob-logo h1 {
+    font-size: 25px;
+	margin-top: 8px;
 }
 }
 @media (max-width: 568px) {
@@ -2033,6 +2044,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .pull-left .mob-logo {
     display: block;
+}
+.pull-left .mob-logo h1 {
+    font-size: 25px;
+	margin-top: 8px;
 }
 }
 @media (max-width: 558px) {
@@ -2078,6 +2093,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .pull-left .mob-logo {
     display: block;
+}
+.pull-left .mob-logo h1 {
+    font-size: 25px;
+	margin-top: 8px;
 }
 }
 @media (max-width: 480px) {
@@ -2191,6 +2210,10 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 20px;
+	margin-top: 8px;
+}
 }
 @media (max-width: 414px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2246,6 +2269,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo h1 {
     font-size: 20px;
+	margin-top: 8px;
 }
 }
 @media (max-width: 411px) {
@@ -2302,6 +2326,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo h1 {
     font-size: 20px;
+	margin-top: 8px;
 }
 }
 
@@ -2436,6 +2461,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo h1 {
     font-size: 18px;
+	margin-top: 8px;
 }
 }
 
@@ -2570,6 +2596,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo h1 {
     font-size: 16px;
+	margin-top: 8px;
 }
 }
 
@@ -2703,6 +2730,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo h1 {
     font-size: 16px;
+	margin-top: 8px;
 }
 }
 
