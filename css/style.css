@@ -645,7 +645,9 @@ button.w3-button.w3-black.w3-display-right{
 }
 .contact-phone p {
     margin-left: 28px;
-	color:#fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
 }
 .contact-phone h3 {
     color: #b22b2b;
@@ -2151,7 +2153,7 @@ button.w3-button.w3-black.w3-display-right {
 }
   
 .intro .intro-content h3 {   
-    font-size: 55px;
+    font-size: 45px;
 }
 .service-text .one:hover .img-top1 {
 	margin: 20px 132px;
@@ -2182,11 +2184,10 @@ button.w3-button.w3-black.w3-display-right {
 }
 .social a {
     float: left;
-
 }
 .cta-btn.align-middle {
 	width: 100%;
-	float: left;
+	float: none;
 	font-size: 25px !important;
 }
 .foot-nav {
@@ -2316,7 +2317,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 .cta-btn.align-middle {
 	width: 100%;
-	float: left;
+	float: none;
 	font-size: 18px !important;
 }
 .foot-nav {
