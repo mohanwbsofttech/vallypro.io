@@ -1815,6 +1815,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left.mob-logo h1 {
+    font-size: 30px;
+	margin-top: 8px;
+}
 }
 @media (max-width: 736px) {
 
@@ -1848,8 +1852,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 32px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
+}
+.pull-left.mob-logo h1 {
+    font-size: 30px;
+	margin-top: 8px;
 }
 }
 @media (max-width: 731px) {
@@ -1884,10 +1892,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 32px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 30px;
 	margin-top: 8px;
 }
@@ -1927,10 +1935,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 30px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 30px;
 	margin-top: 8px;
 }
@@ -2001,10 +2009,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 25px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 25px;
 	margin-top: 8px;
 }
@@ -2042,10 +2050,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	float: none;
 	font-size: 25px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 25px;
 	margin-top: 8px;
 }
@@ -2091,10 +2099,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .intro .intro-content h3 {
 	font-size: 50px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 25px;
 	margin-top: 8px;
 }
@@ -2207,10 +2215,10 @@ button.w3-button.w3-black.w3-display-right {
 .row.service-title.show h3{
 	font-size: 25px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 20px;
 	margin-top: 8px;
 }
@@ -2264,10 +2272,10 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 20px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 20px;
 	margin-top: 8px;
 }
@@ -2321,10 +2329,10 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 18px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 20px;
 	margin-top: 8px;
 }
@@ -2456,10 +2464,10 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 16px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 18px;
 	margin-top: 8px;
 }
@@ -2591,10 +2599,10 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 16px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 16px;
 	margin-top: 8px;
 }
@@ -2725,10 +2733,10 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 16px !important;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: block;
 }
-.pull-left .mob-logo h1 {
+.pull-left.mob-logo h1 {
     font-size: 16px;
 	margin-top: 8px;
 }
