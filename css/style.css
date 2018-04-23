@@ -1705,6 +1705,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-number p {
 	line-height: 30px;
 }
+.contact-address p {
+	width: 55%;
+}
 }
 @media (min-width: 812px) and (max-width: 903px) {
  
