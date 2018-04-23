@@ -233,10 +233,10 @@
           <script>
              $(document).ready(function(){
              	$("#btn1").click(function(){
-				if(window.location.href.indexOf("about-hide") > -1) {	
+				if(''+window.location).includes("about-hide") > -1) {	
 						$("#about").hide();
 					$("#about-hide").show();
-					window.location="#about-hide";
+					window.location.href="#about-hide";
 				  }
              	});
              });			 
