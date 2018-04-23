@@ -2244,6 +2244,9 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 20px;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2296,6 +2299,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo {
     display: block;
+}
+.pull-left .mob-logo h1 {
+    font-size: 20px;
 }
 }
 
@@ -2428,6 +2434,9 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 18px;
+}
 }
 
 @media (max-width: 360px) {
@@ -2559,6 +2568,9 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left .mob-logo {
     display: block;
 }
+.pull-left .mob-logo h1 {
+    font-size: 16px;
+}
 }
 
 
@@ -2688,6 +2700,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .pull-left .mob-logo {
     display: block;
+}
+.pull-left .mob-logo h1 {
+    font-size: 16px;
 }
 }
 
