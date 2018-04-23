@@ -233,9 +233,7 @@
           <script>
              $(document).ready(function(){
              	$("#btn1").click(function(){
-					var url = window.location.search;
-    var key = url.split("#")[0];
-    if(key == "about-hide") // if you want to check if they used brands as urlvar
+				if(window.location.href.indexOf("about-hide") > -1) {	
         $("#about").hide();
     $("#about-hide").show();
 
