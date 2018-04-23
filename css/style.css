@@ -1606,6 +1606,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 290px;
   margin-bottom: 20px;
 }
+.pull-left .mob-logo {
+    display: none;
+}
 
 @media (max-width: 1366px) {
   #contact {
@@ -1809,6 +1812,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .social {
     width: 40%;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 @media (max-width: 736px) {
 
@@ -1842,6 +1848,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 32px;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 @media (max-width: 731px) {
 
@@ -1874,6 +1883,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .row.service-title.show h3 {
 	font-size: 32px;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 
@@ -1910,6 +1922,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .row.service-title.show h3 {
 	font-size: 30px;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 @media (max-width: 576px) {
@@ -1979,6 +1994,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.service-title.show h3 {
 	font-size: 25px;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 @media (max-width: 568px) {
 .service-text .one:hover .img-top1 {
@@ -2012,6 +2030,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 	width: 100%;
 	float: none;
 	font-size: 25px !important;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 @media (max-width: 558px) {
@@ -2054,6 +2075,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .intro .intro-content h3 {
 	font-size: 50px;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 @media (max-width: 480px) {
@@ -2164,6 +2188,9 @@ button.w3-button.w3-black.w3-display-right {
 .row.service-title.show h3{
 	font-size: 25px;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 @media (max-width: 414px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2214,6 +2241,9 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 20px !important;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2263,6 +2293,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .mobile h1 {
     font-size: 18px !important;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 
@@ -2392,6 +2425,9 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 16px !important;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 
 @media (max-width: 360px) {
@@ -2520,6 +2556,9 @@ button.w3-button.w3-black.w3-display-right {
 .mobile h1 {
     font-size: 16px !important;
 }
+.pull-left .mob-logo {
+    display: block;
+}
 }
 
 
@@ -2646,6 +2685,9 @@ button.w3-button.w3-black.w3-display-right {
 }
 .mobile h1 {
     font-size: 16px !important;
+}
+.pull-left .mob-logo {
+    display: block;
 }
 }
 
