@@ -2027,7 +2027,7 @@ button.w3-button.w3-black.w3-display-right {
 .foot-nav.three {
 	float: right;
 	position: relative;
-	right: 32px;
+	right: 45px;
 }
 .intro {
     background-size: cover;
@@ -2104,7 +2104,12 @@ button.w3-button.w3-black.w3-display-right {
 	font-size: 25px;
 }
 }
-
+@media (max-width: 411px) {
+ .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
+    margin: 15px 70px;
+}	
+}
+}
 @media (max-width: 360px) {
 	.intro .intro-content p {
     text-align: center;
