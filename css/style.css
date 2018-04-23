@@ -1606,7 +1606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 290px;
   margin-bottom: 20px;
 }
-.pull-left .mob-logo {
+.pull-left.mob-logo {
     display: none;
 }
 
