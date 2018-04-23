@@ -2178,7 +2178,7 @@ button.w3-button.w3-black.w3-display-right {
 	margin: 25px 168px;
 }	
 }
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 375px) {
 	.intro .intro-content p {
     text-align: center;
 }
