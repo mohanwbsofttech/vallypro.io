@@ -1098,11 +1098,11 @@ section.wow.fadeInUp.slide-testi.hide-service.hide{
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #50d8af;
+  color: #b22b2b;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #50d8af;
+  color: #b22b2b;
 }
 
 #mobile-body-overly {
@@ -2279,7 +2279,7 @@ button.w3-button.w3-black.w3-display-right {
 }
   
 .intro .intro-content h3 {   
-    font-size: 55px;
+    font-size: 45px;
 }
 .service-text .one:hover .img-top1 {
     margin: 10px 108px;
