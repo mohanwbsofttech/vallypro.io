@@ -925,6 +925,9 @@ h3.title-border {
 .contact-number h3 {
     font-size: 14px;
 }
+p.left-space {
+    line-height: 25px;
+}
 .contact-number p {
     margin: 2px 12px;
     line-height: 45px;
