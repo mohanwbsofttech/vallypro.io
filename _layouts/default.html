@@ -37,11 +37,20 @@
  <!--- service links -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <script>
+		  $.fn.scrollView = function () {
+  return this.each(function () {
+    $('html, body').animate({
+      scrollTop: $(this).offset().top
+    }, 1000);
+  });
+}
              $(document).ready(function(){
              	$("#btn1").click(function(){
+			event.preventDefault();
              		$("#about").hide();
 			$("#about-hide").show();
-			window.location.replace='#about-hide';
+			 $('#btn1').scrollView();
+			//window.location.replace='#about-hide';
              	});
              });			 
 			 $(document).ready(function(){
