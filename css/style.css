@@ -927,7 +927,10 @@ h3.title-border {
 }
 .contact-number p {
     margin: 2px 12px;
-    line-height: 30px;
+    line-height: 45px;
+}
+.contact-add p {
+    line-height: 25px;
 }
 .contact-number p a {
     color: #000;
@@ -954,9 +957,6 @@ h3.title-border {
 	width:100%;
 	margin:0;
 	line-height: 0;
-}
-.col-lg-4.cont-left p {
-    line-height: 25px;
 }
 .contact-section .col-lg-6 {
     padding: 0;
