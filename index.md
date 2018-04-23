@@ -13,7 +13,7 @@ layout: default
     </div>
 
     </div>
-  </section><section id="about-hide" class="wow slide-testi hide-service hide">
+  </section><section id="about-hide" class="wow fadeInUp slide-testi hide-service hide">
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
