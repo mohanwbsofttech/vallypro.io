@@ -1,3 +1,49 @@
+<style>
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+/* typography */
+h1 {
+  text-align:center;
+  margin-bottom:-20px !important;
+}
+p {
+  font-style:italic;
+}
+</style>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+  //carousel options
+  $('#quote-carousel').carousel({
+    pause: true, interval: 10000,
+  });
+});
+</script>
 ---
 layout: default
 ---
@@ -139,7 +185,60 @@ layout: default
           <h2 class="client-say">What our customer say?</h2>
 		   <p><img src="img/star.png"></p>
         </div>
-        <div class="owl-carousel testimonials-carousel">
+		
+		
+		<!--- add custom testimonial-->
+		<div class="col-md-12">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+      
+<!-- Bottom Carousel Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+  <li data-target="#quote-carousel" data-slide-to="1"></li>
+  <li data-target="#quote-carousel" data-slide-to="2"></li>
+</ol>
+        
+<!-- Carousel Slides / Quotes -->
+<div class="carousel-inner">
+
+<!-- Quote 1 -->
+<div class="item active">
+  <div class="row">
+    <div class="col-sm-12">
+      <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.&rdquo;</p>
+      <small><strong>Vulputate M., Dolor</strong></small>
+    </div>
+  </div>
+</div>
+
+<!-- Quote 2 -->
+<div class="item">
+  <div class="row">
+    <div class="col-sm-12">
+      <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&rdquo;</p>
+      <small><strong>Fringilla A., Vulputate Sit</strong></small>
+    </div>
+  </div>
+</div>
+
+<!-- Quote 3 -->
+<div class="item">
+  <div class="row">
+    <div class="col-sm-12">
+      <p>&ldquo;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.&rdquo;</p>
+      <small><strong>Aenean A., Justo Cras</strong></small>
+    </div>
+  </div>
+</div>
+  
+</div>
+        
+
+      </div>                          
+    </div>
+		<!--- end custom testimonial-->
+		
+        <!---<div class="owl-carousel testimonials-carousel">
 
             <div class="testimonial-item">
               <p>
@@ -152,7 +251,7 @@ layout: default
               <h4>Ceo &amp; Founder</h4>
             </div>
  
-            <!---<div class="testimonial-item">
+            <div class="testimonial-item">
               <p>
                 <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
@@ -194,9 +293,9 @@ layout: default
               <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
-            </div>-->
+            </div>
 
-        </div>
+        </div>-->
 		
 		<div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="contact">Get A Quote</a>
