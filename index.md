@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <style>
 /* carousel */
 #quote-carousel {
@@ -44,9 +47,7 @@ $(document).ready(function() {
   });
 });
 </script>
----
-layout: default
----
+
   <section  class="intro">
     <div class="container">
     <div class="intro-content">
