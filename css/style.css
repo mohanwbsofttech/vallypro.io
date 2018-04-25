@@ -1639,6 +1639,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #quote-carousel p {
   font-style:italic;
 }
+.item img {
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
 .col-lg-3.cta-btn-container.text-center {
     width: 100%;
 }
