@@ -2740,10 +2740,6 @@ button.w3-button.w3-black.w3-display-right {
     font-size: 16px;
 	margin-top: 8px;
 }
-header#header-2.custom-head {
-    display: block;
-	background: #fff;
-}
 }
 
 #contact .form #sendmessage {
@@ -2822,8 +2818,4 @@ header#header-2.custom-head {
 
 #footer .credits a {
   color: #0c2e8a;
-}
-header#header-2.custom-head {
-    display: none;
-	background: #fff;
 }
