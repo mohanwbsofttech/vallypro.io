@@ -2759,10 +2759,10 @@ button.w3-button.w3-black.w3-display-right {
 	text-align: right;
 }
 #header {
-	width: 100%;
+	width: 100% !important;
 	float: left;
-	position: relative;
-	bottom: -34px;
+	position: fixed !important;
+	top: 32px !important;
 }
 }
 
