@@ -2627,7 +2627,7 @@ button.w3-button.w3-black.w3-display-right {
     display: none;
 }
 #mobile-nav-toggle {
-	top: 50px;
+	top: 40px;
 }
 button.w3-button.w3-black.w3-display-left {
 	top: -112px;
@@ -2748,6 +2748,7 @@ button.w3-button.w3-black.w3-display-right {
 .top-custom h1 {
 	width: 50%;
 	float: left;
+	margin: 0;
 }
 .top-custom img {
 	width: 100%;
