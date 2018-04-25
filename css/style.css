@@ -2819,3 +2819,6 @@ button.w3-button.w3-black.w3-display-right {
 #footer .credits a {
   color: #0c2e8a;
 }
+header#header.custom-head {
+    display: none;
+}
