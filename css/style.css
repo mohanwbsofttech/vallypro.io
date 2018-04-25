@@ -1758,6 +1758,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-address p {
 	width: 55%;
 }
+div#logo h1 {
+    margin: 8px 0;
+}
+.social-links.float-right h6 {
+    margin-top: 25px;
+}
 }
 @media (min-width: 812px) and (max-width: 903px) {
  
