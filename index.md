@@ -1,41 +1,6 @@
 ---
 layout: default
 ---
-<style>
-/* carousel */
-#quote-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  text-align:center;
-}
-/* indicator position */
-#quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-}
-/* indicator color */
-#quote-carousel .carousel-indicators li {
-  background: #c0c0c0;
-}
-/* active indicator */
-#quote-carousel .carousel-indicators .active {
-  background: #333333;
-  height:10px;
-  width:10px;
-  margin-bottom:1px;
-}
-/* typography */
-h1 {
-  text-align:center;
-  margin-bottom:-20px !important;
-}
-p {
-  font-style:italic;
-}
-</style>
-
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
