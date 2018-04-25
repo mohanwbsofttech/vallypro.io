@@ -1749,6 +1749,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-size: 25px !important;
 	margin: 0 auto;
 }
+#mobile-nav-toggle {
+    top: 40px;
+}
 .top-custom {
 	display: block;
 	width: 100%;
@@ -1819,7 +1822,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .social a {
     float: left;
-
 }
 .cta-btn.align-middle {
 	width: 100%;
@@ -1846,6 +1848,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left.mob-logo h1 {
     font-size: 30px;
 	margin-top: 5px;
+}
+#mobile-nav-toggle {
+    top: 40px;
 }
 .top-custom {
 	display: block;
@@ -1918,6 +1923,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 30px;
 	margin-top: 5px;
 }
+#mobile-nav-toggle {
+    top: 40px;
+}
 .top-custom {
 	display: block;
 	width: 100%;
@@ -1988,6 +1996,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left.mob-logo h1 {
     font-size: 30px;
 	margin-top: 5px;
+}
+#mobile-nav-toggle {
+    top: 40px;
 }
 .top-custom {
 	display: block;
@@ -2062,6 +2073,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left.mob-logo h1 {
     font-size: 30px;
 	margin-top: 5px;
+}
+#mobile-nav-toggle {
+    top: 40px;
 }
 .top-custom {
 	display: block;
@@ -2168,6 +2182,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 25px;
 	margin-top: 8px;
 }
+#mobile-nav-toggle {
+    top: 40px;
+}
 .top-custom {
 	display: block;
 	width: 100%;
@@ -2271,6 +2288,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 	position: fixed !important;
 	top: 32px !important;
 }
+#mobile-nav-toggle {
+    top: 40px;
+}
 }
 @media (max-width: 558px) {
 .service-text .one:hover .img-top1 {
@@ -2319,6 +2339,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .pull-left.mob-logo h1 {
     font-size: 25px;
 	margin-top: 8px;
+}
+#mobile-nav-toggle {
+    top: 40px;
 }
 .top-custom {
 	display: block;
@@ -2373,7 +2396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
 }
 #mobile-nav-toggle {
-	top: 40px;
+	top: 50px;
 }
 button.w3-button.w3-black.w3-display-left {
 	top: -112px;
@@ -2554,6 +2577,9 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left.mob-logo h1 {
     font-size: 20px;
 	margin-top: 8px;
+}
+#mobile-nav-toggle {
+	top: 44px;
 }
 .top-custom {
 	display: block;
