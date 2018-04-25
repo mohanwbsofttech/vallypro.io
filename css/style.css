@@ -1040,7 +1040,7 @@ section.wow.fadeInUp.slide-testi.hide-service {
     display: none;
     padding: 90px 0;
 }
-
+.top-custom{display:none;}
 /* custom css end here */
 
 @media (max-width: 768px) {
