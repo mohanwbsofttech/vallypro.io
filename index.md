@@ -152,7 +152,7 @@ layout: default
               <h4>Ceo &amp; Founder</h4>
             </div>
  
-            <div class="testimonial-item">
+            <!---<div class="testimonial-item">
               <p>
                 <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
@@ -194,7 +194,7 @@ layout: default
               <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
-            </div>
+            </div>-->
 
         </div>
 		
