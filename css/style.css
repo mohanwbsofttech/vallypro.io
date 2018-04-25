@@ -1639,6 +1639,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #quote-carousel p {
   font-style:italic;
 }
+.col-lg-3.cta-btn-container.text-center {
+    width: 100%;
+}
 /* custom testimonial css end*/
 
 @media (max-width: 1366px) {
