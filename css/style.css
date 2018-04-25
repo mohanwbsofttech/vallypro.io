@@ -1658,6 +1658,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .foot-top {
 	background-position: bottom;
 }
+.pull-left h1 {
+	margin: 8px 0;
+}
+.social-links.float-right h6 {
+	margin-top: 25px;
+}
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   .intro-content {
