@@ -1843,6 +1843,12 @@ div#logo h1 {
 	position: fixed !important;
 	top: 52px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 
 @media (max-width: 768px) {
@@ -1943,6 +1949,12 @@ div#logo h1 {
 	position: fixed !important;
 	top: 45px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 @media (max-width: 736px) {
 
@@ -2016,6 +2028,12 @@ div#logo h1 {
 	float: left;
 	position: fixed !important;
 	top: 32px !important;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 @media (max-width: 731px) {
@@ -2094,6 +2112,12 @@ div#logo h1 {
 	position: fixed !important;
 	top: 32px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 
 @media (max-width: 667px) {
@@ -2170,6 +2194,12 @@ div#logo h1 {
 	float: left;
 	position: fixed !important;
 	top: 32px !important;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 @media (max-width: 576px) {
@@ -2279,6 +2309,12 @@ div#logo h1 {
 	position: fixed !important;
 	top: 32px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 @media (max-width: 568px) {
 .service-text .one:hover .img-top1 {
@@ -2353,6 +2389,12 @@ div#logo h1 {
 }
 #mobile-nav-toggle {
     top: 48px;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 @media (max-width: 558px) {
@@ -2436,6 +2478,12 @@ div#logo h1 {
 	float: left;
 	position: fixed !important;
 	top: 25px !important;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 @media (max-width: 480px) {
@@ -2584,6 +2632,12 @@ button.w3-button.w3-black.w3-display-right {
 	position: fixed !important;
 	top: 10px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 @media (max-width: 414px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2675,6 +2729,12 @@ button.w3-button.w3-black.w3-display-right {
 	position: fixed !important;
 	top: 10px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 @media (max-width: 411px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
@@ -2765,6 +2825,12 @@ button.w3-button.w3-black.w3-display-right {
 	float: left;
 	position: fixed !important;
 	top: 10px !important;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 
@@ -2932,6 +2998,12 @@ button.w3-button.w3-black.w3-display-right {
 	position: fixed !important;
 	top: 32px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 
 @media (max-width: 360px) {
@@ -3098,6 +3170,12 @@ button.w3-button.w3-black.w3-display-right {
 	position: fixed !important;
 	top: 32px !important;
 }
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
 }
 
 
@@ -3262,6 +3340,12 @@ button.w3-button.w3-black.w3-display-right {
 	float: left;
 	position: fixed !important;
 	top: 32px !important;
+}
+.top-custom h3 img {
+	width: 10%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
 }
 }
 
