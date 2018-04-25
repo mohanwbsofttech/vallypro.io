@@ -172,6 +172,7 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-sm-12">
       <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.&rdquo;</p>
+	  <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
       <small><strong>Vulputate M., Dolor</strong></small>
     </div>
   </div>
@@ -182,6 +183,7 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-sm-12">
       <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&rdquo;</p>
+	  <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
       <small><strong>Fringilla A., Vulputate Sit</strong></small>
     </div>
   </div>
@@ -192,6 +194,7 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-sm-12">
       <p>&ldquo;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum.&rdquo;</p>
+	  <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
       <small><strong>Aenean A., Justo Cras</strong></small>
     </div>
   </div>
