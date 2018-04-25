@@ -1662,7 +1662,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	margin: 8px 0;
 }
 .social-links.float-right h6 {
-	margin-top: 25px;
+	margin-top: 22px;
+}
+.social-links.float-right h5 {
+    margin: 18px 10px;
 }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
