@@ -2627,7 +2627,7 @@ button.w3-button.w3-black.w3-display-right {
     display: none;
 }
 #mobile-nav-toggle {
-	top: 0px;
+	top: 50px;
 }
 button.w3-button.w3-black.w3-display-left {
 	top: -112px;
@@ -2736,6 +2736,33 @@ button.w3-button.w3-black.w3-display-right {
 .pull-left.mob-logo h1 {
     font-size: 16px;
 	margin-top: 8px;
+}
+.top-custom {
+	display: block;
+	width: 100%;
+	float: left;
+	position: fixed;
+	z-index: 9999999;
+	background: #fff;
+}
+.top-custom h1 {
+	width: 50%;
+	float: left;
+}
+.top-custom img {
+	width: 100%;
+}
+.top-custom h3 {
+	width: 50%;
+	float: left;
+	font-size: 15px;
+	text-align: right;
+}
+#header {
+	width: 100%;
+	float: left;
+	position: relative;
+	bottom: 26px;
 }
 }
 
