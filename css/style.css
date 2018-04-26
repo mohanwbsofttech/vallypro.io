@@ -1962,6 +1962,9 @@ div#logo h1 {
 	right: 2px;
 	bottom: 2px;
 }
+.foot-top {
+    background-position: right;
+}
 }
 @media (max-width: 736px) {
 
