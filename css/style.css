@@ -1674,9 +1674,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   .intro-content {
-	padding: 100px 0 100px 0;
-}
-  
+	padding: 70px 0 70px 0;
+} 
 .intro .intro-content h3 {   
     font-size: 55px;
 }
@@ -1713,7 +1712,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .social a {
     float: left;
-
 }
 .cta-btn.align-middle {
 	width: 50%;
@@ -1736,7 +1734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 20px;
 }
 .foot-nav.three {
-	margin-top: 63px;
+	margin-top: 80px;
 }
 #footer .copyright {
 	width: 80% !important;
@@ -1813,9 +1811,17 @@ div#logo h1 {
 	margin: 0 auto;
 }
 .intro-content {
-	padding: 120px 0 120px 0;
+	padding: 80px 0 30px 0;
 }
-
+.intro .intro-content h2 {
+	font-size: 40px;
+}
+.intro .intro-content h3 {
+	font-size: 70px;
+}
+.intro .intro-content p {
+	font-size: 18px;
+}
 #mobile-nav-toggle {
     top: 40px;
 }
@@ -1860,9 +1866,8 @@ div#logo h1 {
 
 @media (max-width: 768px) {
   .intro-content {
-	padding: 100px 0 100px 0;
-}
-  
+	padding: 60px 0 25px 0;
+} 
 .intro .intro-content h3 {   
     font-size: 55px;
 }
@@ -2045,6 +2050,9 @@ div#logo h1 {
 	right: 2px;
 	bottom: 2px;
 }
+.intro-content {
+	padding: 60px 0 70px 0;
+}
 }
 @media (max-width: 731px) {
 
@@ -2128,6 +2136,9 @@ div#logo h1 {
 	right: 2px;
 	bottom: 2px;
 }
+.intro-content {
+	padding: 60px 0 70px 0;
+}
 }
 
 @media (max-width: 667px) {
@@ -2210,6 +2221,9 @@ div#logo h1 {
 	position: relative;
 	right: 2px;
 	bottom: 2px;
+}
+.intro-content {
+	padding: 70px 0 50px 0;
 }
 }
 @media (max-width: 576px) {
