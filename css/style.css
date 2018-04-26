@@ -2495,6 +2495,9 @@ div#logo h1 {
 	right: 2px;
 	bottom: 2px;
 }
+.intro-content {
+	padding: 50px 0 8px 0;
+}
 }
 @media (max-width: 480px) {
   .intro .intro-content p {
