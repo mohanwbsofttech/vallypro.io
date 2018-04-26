@@ -2214,7 +2214,7 @@ div#logo h1 {
 }
 @media (max-width: 576px) {
   .intro-content {
-	padding: 100px 0 100px 0;
+	padding: 60px 0 25px 0;
 }
   
 .intro .intro-content h3 {   
