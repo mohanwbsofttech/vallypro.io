@@ -1867,6 +1867,15 @@ div#logo h1 {
 	background-size: cover;
 	background-position: inherit;
 }
+.col-lg-4.cont-left {
+	margin-top: 60px;
+}
+.contact-number {
+	width: 50%;
+}
+.contact-add {
+	width: 50%;
+}
 }
 
 @media (max-width: 768px) {
@@ -1978,6 +1987,12 @@ div#logo h1 {
 #mobile-nav {
     top: 60px;
 }
+.contact-number {
+	width: 50%;
+}
+.contact-add {
+	width: 50%;
+}
 }
 @media (max-width: 736px) {
 
@@ -2060,6 +2075,11 @@ div#logo h1 {
 }
 .intro-content {
 	padding: 60px 0 70px 0;
+}.contact-number {
+	width: 50%;
+}
+.contact-add {
+	width: 50%;
 }
 }
 @media (max-width: 731px) {
@@ -2146,6 +2166,12 @@ div#logo h1 {
 }
 .intro-content {
 	padding: 60px 0 70px 0;
+}
+.contact-number {
+	width: 50%;
+}
+.contact-add {
+	width: 50%;
 }
 }
 
