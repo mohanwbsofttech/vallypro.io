@@ -140,7 +140,7 @@ layout: default
 		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/services/bath.png">Bathroom Renovation</h3>
+		<h3><img src="img/bath.png">Bathroom Renovation</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
