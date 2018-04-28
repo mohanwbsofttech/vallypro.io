@@ -1777,7 +1777,7 @@ div#logo h1 {
 }
 }
 
-@media (max-width: 922px) {
+@media (min-width: 812px) and (max-width: 922px) {
  
 .service-text .one:hover .img-top1 {
     margin: 25px 310px;
@@ -1863,93 +1863,9 @@ div#logo h1 {
 	right: 2px;
 	bottom: 2px;
 }
-}
-
-@media (min-width: 812px) and (max-width: 903px) {
- 
-.service-text .one:hover .img-top1 {
-    margin: 25px 310px;
-}
-.service-text .two:hover .img-top2 {
-    margin: 25px 320px;
-}
-.service-text .three:hover .img-top3 {
-    margin: 25px 320px;
-}
-.service-text .four:hover .img-top4 {
-	margin: 25px 323px;
-}
-.service-text .five:hover .img-top5 {
-	margin: 25px 295px;
-}
-.service-text .six:hover .img-top6 {
-	margin: 26px 320px;
-}
-.service-text .seven:hover .img-top7 {
-	margin: 25px 326px;
-}
-.service-text .eight:hover .img-top8 {
-	margin: 25px 330px;
-}
-.service-text .nine:hover .img-top9 {
-	margin: 25px 322px;
-}
-.cta-btn.align-middle {
-	width: 50%;
-	font-size: 25px !important;
-	margin: 0 auto;
-}
-.intro-content {
-	padding: 80px 0 30px 0;
-}
-.intro .intro-content h2 {
-	font-size: 40px;
-}
-.intro .intro-content h3 {
-	font-size: 70px;
-}
-.intro .intro-content p {
-	font-size: 18px;
-}
-#mobile-nav-toggle {
-    top: 40px;
-}
-.top-custom {
-	display: block;
-	width: 100%;
-	float: left;
-	position: fixed;
-	z-index: 9999999;
-	background: #fff;
-}
-.top-custom h1 {
-	width: 50%;
-	float: left;
-	margin: 0;
-}
-.top-custom img {
-	width: 55%;
-}
-.top-custom h3 {
-	width: 50%;
-	float: left;
-	font-size: 15px;
-	text-align: right;
-	margin: 18px 0 0 0;
-	vertical-align: middle;
-	font-weight: 600;
-}
-#header {
-	width: 100% !important;
-	float: left;
-	position: fixed !important;
-	top: 52px !important;
-}
-.top-custom h3 img {
-	width: 6%;
-	position: relative;
-	right: 2px;
-	bottom: 2px;
+.foot-top {
+	background-size: cover;
+	background-position: inherit;
 }
 }
 
