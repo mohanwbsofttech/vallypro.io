@@ -14,7 +14,7 @@ layout: default
     </div>
 
     </div>
-  </section><section id="about" class="wow fadeInUp slide-testi">
+  </section><section id="about" class="wow fadeInUp slide-testi1">
     <div class="container">
         <div class="row service-title">
           <div class="col-lg-12">
