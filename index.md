@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
-<script>
-$(document).ready(function() {
-  //carousel options
-  $('#quote-carousel').carousel({
-    pause: true, interval: 10000,
-  });
-});
-</script>
 
   <section  class="intro">
     <div class="container">
@@ -25,58 +14,7 @@ $(document).ready(function() {
     </div>
 
     </div>
-  </section><section id="about-hide" class="wow slide-testi hide-service">
-      <div class="container">
-        <div class="row service-title show">
-		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
-		</div>
-		<div class="col-lg-6">
-		<h3><img src="img/bath.png"> Bathroom Renovation</h3>
-		</div>
-		</div>
-		<div class="row service-video top">
-		<div class="col-lg-6">
-		<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-</div>
-		</div>
-		<div class="col-lg-6">
-		 <h1>Bathroom Renovation</h1>
-		 <p>Bathroom renovations can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
-
-		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
-		</div>
-		</div>
-		<div class="row service-video bottom">
-		<div class="col-lg-6">
-		 <h1>Bathroom Renovation</h1>
-		 <p>Bathroom renovations can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
-
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-		<li>Ut at ex et ipsum feugiat molestie. </li>
-		<li>Ut porta, est nec mattis commodo</li>
-		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
-		</div>
-		<div class="col-lg-6">
-		<div class="w3-content w3-display-container">
-	  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
-	  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
-	  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
-
-	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
-		</div>
-		</div>
-		<div class="col-lg-3 cta-btn-container text-center service">
-            <a class="cta-btn align-middle" href="contact">Request a quote</a>
-         </div>
-	  </div>
-	</section>
-  <section id="about" class="wow fadeInUp slide-testi">
+  </section><section id="about" class="wow fadeInUp slide-testi">
     <div class="container">
         <div class="row service-title">
           <div class="col-lg-12">
@@ -94,7 +32,7 @@ $(document).ready(function() {
 		  <div class="col-lg-4 two" id="service2">
             <h1><img src="img/services/serv22.png"></h1>
 			<h1><img src="img/services/srv02.png" class="img-top2"></h1>
-			<h2>Kitchen Remodeling</h2>
+			<h2>Bathroom Renovation</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed leo tellus. Praesent nec vehicula ligula, non laoreet ligula.</p>
           </div>
 		  <div class="col-lg-4 three" id="service3">
@@ -145,7 +83,457 @@ $(document).ready(function() {
           </div>
 		</div>
     </div>
-    </section><section id="testimonials" class="wow fadeInUp">
+    </section><section id="Kitchen-Remodeling" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv01.png">Kitchen Remodeling</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Kitchen Remodeling</h1>
+		 <p>Kitchen Remodeling can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Kitchen Remodeling</h1>
+		 <p>Kitchen Remodeling can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Bathroom-Renovation" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/bath.png">Bathroom Renovation</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Bathroom Renovation</h1>
+		 <p>Bathroom Renovation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Bathroom Renovation</h1>
+		 <p>Bathroom Renovation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Window-Installation" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv03.png">Window Installation</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Window Installation</h1>
+		 <p>Window Installation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Window Installation</h1>
+		 <p>Window Installation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Door-Installation" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv04.png">Door Installation</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Door Installation</h1>
+		 <p>Door Installation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Door Installation</h1>
+		 <p>Door Installation can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Roofing" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv05.png">Roofing</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Roofing</h1>
+		 <p>Roofing can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Roofing</h1>
+		 <p>Roofing can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Sliding" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv06.png">Sliding</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Sliding</h1>
+		 <p>Sliding can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Sliding</h1>
+		 <p>Sliding can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Home-Additions" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv07.png">Home Additions</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Home Additions</h1>
+		 <p>Home Additions can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Home Additions</h1>
+		 <p>Home Additions can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Restoration-Services" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv08.png">Restoration Services</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Restoration Services</h1>
+		 <p>Restoration Services can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Restoration Services</h1>
+		 <p>Restoration Services can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="Custom-Home-Building" class="wow slide-testi hide-service">
+      <div class="container">
+        <div class="row service-title show">
+		<div class="col-lg-6">
+		 <h1 id="back-service" class> Back To Services</h1>
+		</div>
+		<div class="col-lg-6">
+		<h3><img src="img/srv09.png">Custom Home Building</h3>
+		</div>
+		</div>
+		<div class="row service-video top">
+		<div class="col-lg-6">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+		</div>
+		</div>
+		<div class="col-lg-6">
+		 <h1>Custom Home Building</h1>
+		 <p>Custom Home Building can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ex et ipsum feugiat molestie. Ut porta, est nec mattis commodo, nisi ligula molestie orci, at pretium neque mi in dolor. Suspendisse vehicula aliquam pellentesque. </p>
+
+		<p>Maecenas posuere tempus lectus, non ultricies nisl. </p>
+		</div>
+		</div>
+		<div class="row service-video bottom">
+		<div class="col-lg-6">
+		 <h1>Custom Home Building</h1>
+		 <p>Custom Home Building can be overly expensive if your project dollars are not spent wisely. Don't take a chance trying to do it yourself.</p>
+
+		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+		<li>Ut at ex et ipsum feugiat molestie. </li>
+		<li>Ut porta, est nec mattis commodo</li>
+		<li>Nisi ligula molestie orci, at pretium neque mi in dolor.</li>
+		</div>
+		<div class="col-lg-6">
+		<div class="w3-content w3-display-container">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+
+		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</div>
+		</div>
+		<div class="col-lg-3 cta-btn-container text-center service">
+            <a class="cta-btn align-middle" href="contact">Request a quote</a>
+        </div>
+	  </div>
+	</section><section id="testimonials" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2 class="client-say">What our customer say?</h2>
