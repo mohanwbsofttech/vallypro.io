@@ -2869,7 +2869,7 @@ button.w3-button.w3-black.w3-display-right {
 }
 @media (max-width: 400px) {
  .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
-    margin: 15px 70px;
+    margin: 15px 65px;
 }
 .service-text .one:hover .img-top1 {
     margin: 25px 160px;
