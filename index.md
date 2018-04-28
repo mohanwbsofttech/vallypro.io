@@ -87,10 +87,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service" > Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv01.png">Kitchen Remodeling</h3>
+		<h3><img src="img/services/srv01.png">Kitchen Remodeling</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -137,10 +137,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/bath.png">Bathroom Renovation</h3>
+		<h3><img src="img/services/bath.png">Bathroom Renovation</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -187,10 +187,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv03.png">Window Installation</h3>
+		<h3><img src="img/services/srv03.png">Window Installation</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -237,10 +237,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv04.png">Door Installation</h3>
+		<h3><img src="img/services/srv04.png">Door Installation</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -287,10 +287,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv05.png">Roofing</h3>
+		<h3><img src="img/services/srv05.png">Roofing</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -337,10 +337,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv06.png">Sliding</h3>
+		<h3><img src="img/services/srv06.png">Sliding</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -387,10 +387,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv07.png">Home Additions</h3>
+		<h3><img src="img/services/srv07.png">Home Additions</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -437,10 +437,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv08.png">Restoration Services</h3>
+		<h3><img src="img/services/srv08.png">Restoration Services</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
@@ -487,10 +487,10 @@ layout: default
       <div class="container">
         <div class="row service-title show">
 		<div class="col-lg-6">
-		 <h1 id="back-service" class> Back To Services</h1>
+		 <h1 class="back-service"> Back To Services</h1>
 		</div>
 		<div class="col-lg-6">
-		<h3><img src="img/srv09.png">Custom Home Building</h3>
+		<h3><img src="img/services/srv09.png">Custom Home Building</h3>
 		</div>
 		</div>
 		<div class="row service-video top">
