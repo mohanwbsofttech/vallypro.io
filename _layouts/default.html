@@ -220,15 +220,11 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 <script>
-	function smoothScrollingTo(target){
-  $('html,body').animate({scrollTop:$(target).offset().‌​top}, 500);
-}
-$('a[href*=\\#]').on('click', function(event){     
+	$('a[href*=#]').click(function(event){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1500);
     event.preventDefault();
-    smoothScrollingTo(this.hash);
-});
-$(document).ready(function(){
-  smoothScrollingTo(location.hash);
 });
 </script>
 <script>
