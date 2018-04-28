@@ -1040,10 +1040,12 @@ p.left-space {
 section.wow.fadeInUp.slide-testi.hide-service {
     padding: 80px 0;
 }
-#about-hide {
+#Kitchen-Remodeling, #Bathroom-Renovation, #Window-Installation, #Door-Installation, #Roofing,
+ #Sliding, #Home-Additions, #Restoration-Services, #Custom-Home-Building {
     display: none;
     padding: 90px 0;
 }
+
 .top-custom{display:none;}
 /* custom css end here */
 
