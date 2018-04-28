@@ -870,10 +870,10 @@ button.w3-button.w3-black.w3-display-right{
 		text-align: center;
         margin: 25px 160px;
     }
-.row.service-title.show h1#back-service:hover {
+.row.service-title.show h1.back-service:hover {
     color: #b22b2b;
 }	
-.row.service-title.show h1#back-service:before {
+.row.service-title.show h1.back-service:before {
     content: "<";
     font-size: 40px;
     color: #fff;
@@ -881,7 +881,7 @@ button.w3-button.w3-black.w3-display-right{
     top: 10px;
     right: 15px;
 }
-.row.service-title.show h1#back-service:hover:before {   
+.row.service-title.show h1.back-service:hover:before {   
     color: #b22b2b;
 }		
 	
@@ -1045,6 +1045,7 @@ section.wow.fadeInUp.slide-testi.hide-service {
     display: none;
     padding: 90px 0;
 }
+
 
 .top-custom{display:none;}
 /* custom css end here */
