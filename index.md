@@ -170,9 +170,9 @@ layout: default
 		</div>
 		<div class="col-lg-6">
 		<div class="w3-content w3-display-container">
-		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
-		  <img class="mySlides" src="img/vid01.jpg" style="width:100%">
-		  <img class="mySlides" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides1" src="img/vid02.jpg" style="width:100%">
+		  <img class="mySlides1" src="img/vid01.jpg" style="width:100%">
+		  <img class="mySlides1" src="img/vid02.jpg" style="width:100%">
 
 		  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 		  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
