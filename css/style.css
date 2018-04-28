@@ -1993,6 +1993,9 @@ div#logo h1 {
 .contact-add {
 	width: 50%;
 }
+.col-lg-4.cont-left {
+	margin-top: 120px;
+}
 }
 @media (max-width: 736px) {
 
@@ -2080,6 +2083,9 @@ div#logo h1 {
 }
 .contact-add {
 	width: 50%;
+}
+.col-lg-4.cont-left {
+	margin-top: 120px;
 }
 }
 @media (max-width: 731px) {
@@ -2172,6 +2178,9 @@ div#logo h1 {
 }
 .contact-add {
 	width: 50%;
+}
+.col-lg-4.cont-left {
+	margin-top: 120px;
 }
 }
 
