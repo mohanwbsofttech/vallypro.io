@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .pull-left h1{
 	float: left;
-	margin: 8px 0;
+	margin: 0px 0;
 }
 .pull-left h6 {
     float: left;
@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-links.float-right h5 {
     float: left;
-    margin: 18px 10px;
+    margin: 0px 10px;
 }
 .social-links.float-right h2 {
     float: left;
@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-links.float-right h6 {
     float: left;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 .social-links.float-right h6 a {
