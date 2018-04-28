@@ -2867,7 +2867,103 @@ button.w3-button.w3-black.w3-display-right {
 	bottom: 2px;
 }
 }
-
+@media (max-width: 400px) {
+ .intro .intro-content .btn-get-started, .intro .intro-content .btn-projects {
+    margin: 15px 70px;
+}
+.service-text .one:hover .img-top1 {
+    margin: 25px 160px;
+}
+.service-text .two:hover .img-top2 {
+	margin: 25px 166px;
+}
+.service-text .three:hover .img-top3 {
+	margin: 25px 170px;
+}
+.service-text .four:hover .img-top4 {
+	margin: 25px 172px;
+}
+.service-text .five:hover .img-top5 {
+	margin: 25px 142px;
+}
+.service-text .six:hover .img-top6 {
+	margin: 25px 166px;
+}
+.service-text .seven:hover .img-top7 {
+	margin: 25px 171px;
+}
+.service-text .eight:hover .img-top8 {
+	margin: 25px 176px;
+}
+.service-text .nine:hover .img-top9 {
+	margin: 25px 168px;
+}	
+.contact-number p {
+	line-height: 35px;
+}
+.contact-number p a {
+	font-size: 15px;
+}
+.intro .intro-content h3 {
+	font-size: 50px;
+}
+.cta-btn.align-middle {
+	font-size: 20px !important;
+}
+.col-lg-3.cta-btn-container.text-center.service a {
+	padding: 15px 30px;
+}
+.mobile h1 {
+    font-size: 18px !important;
+}
+.pull-left.mob-logo {
+    display: block;
+}
+.pull-left.mob-logo h1 {
+    font-size: 20px;
+	margin-top: 8px;
+}
+#mobile-nav-toggle {
+	top: 30px;
+}
+.top-custom {
+	display: block;
+	width: 100%;
+	float: left;
+	position: fixed;
+	z-index: 9999999;
+	background: #fff;
+}
+.top-custom h1 {
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+.top-custom img {
+	width: 80%;
+}
+.top-custom h3 {
+	width: 50%;
+	float: left;
+	font-size: 15px;
+	text-align: right;
+	margin: 18px 0 0 0;
+	vertical-align: middle;
+	font-weight: 600;
+}
+#header {
+	width: 100% !important;
+	float: left;
+	position: fixed !important;
+	top: 10px !important;
+}
+.top-custom h3 img {
+	width: 8%;
+	position: relative;
+	right: 2px;
+	bottom: 2px;
+}
+}
 @media  (max-width: 375px) {
 	.intro .intro-content p {
     text-align: center;
