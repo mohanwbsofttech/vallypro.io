@@ -225,7 +225,8 @@
 
  
 <script>
-  document.addEventListener( "DOMContentLoaded", function(){
+  document.onreadystatechange = function () {
+     if (document.readyState == "complete") {
 	var slideIndex = 1;
 	showDivs(slideIndex);
 
@@ -316,7 +317,8 @@
 	  h[slideIndex-1].style.display = "block";
  
 	}
- });
+ }
+  }
 	</script>
 
 <!--- service links -->
