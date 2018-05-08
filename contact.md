@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiO1BXDEZoM9V7o0Aqc-uZ8_FUtAFawTs"></script>
  <section id="contact-page" class="wow fadeInUp contact-section">
         <div class="row">
 		<div class="col-lg-2 cont-left">   
